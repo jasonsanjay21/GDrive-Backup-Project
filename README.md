@@ -124,11 +124,17 @@ if __name__ == "__main__":
 
 ## Script Details
 Create Zip: create_zip(source_folder, output_zip)
+
 Delete Old Backups: delete_old_backups()
+
 Upload to Google Drive: upload_to_google_drive(file_path)
+
 Send Notification: send_notification()
+
 Dependencies
+
 Python libraries: os, zipfile, shutil, datetime, subprocess, argparse, json
+
 External tools: rclone, cURL
 
 
