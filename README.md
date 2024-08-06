@@ -34,5 +34,7 @@ GOOGLE_DRIVE_FOLDER = "backups"
 ## Imports: Required libraries for file operations, subprocess execution, argument parsing, and JSON handling.
 Constants:
           BACKUP_FOLDER: Directory to store backup files.
+          
           ROTATION_DAYS, ROTATION_WEEKS, ROTATION_MONTHS: Retention periods for daily, weekly, and monthly backups.
+          
           GOOGLE_DRIVE_REMOTE, GOOGLE_DRIVE_FOLDER: Configuration for Google Drive uploads via rclone.
